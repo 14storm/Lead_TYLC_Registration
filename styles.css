@@ -548,6 +548,10 @@ a { text-decoration: none; color: inherit; }
   justify-content: space-between;
   gap: 32px;
 }
+.teal{
+  display: flex;
+  justify-content: center;
+}
 .cta-bar span {
   font-family: var(--font-display);
   font-size: clamp(1.6rem, 3vw, 2.4rem);
@@ -565,6 +569,7 @@ a { text-decoration: none; color: inherit; }
   color: var(--white);
   white-space: nowrap;
 }
+
 /* Keep CTA button compact — never stretch */
 .cta-bar .btn {
   flex-shrink: 0;
