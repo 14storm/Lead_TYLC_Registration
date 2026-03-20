@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>The Young Leaders Conclave</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,700;0,900;1,700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <div class="logo">
+        <div class="logo-icon">
+          <span class="bar b1"></span>
+          <span class="bar b2"></span>
+          <span class="bar b3"></span>
+          <span class="bar b4"></span>
+        </div>
+        <span class="logo-text">The Young Leaders<br><strong>Conclave</strong></span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#values">Values</a></li>
+        <li><a href="#campus">Campus Rep</a></li>
+        <li><a href="#join" class="nav-cta">Join Now</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#about">About</a>
+      <a href="#values">Values</a>
+      <a href="#campus">Campus Rep</a>
+      <a href="#join">Join Now</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <p class="eyebrow reveal">Africa's Next Leadership Movement</p>
+      <h1 class="hero-title reveal">
+        Rise.<br>Lead.<br>
+        <em class="accent">Shape The Future</em>
+      </h1>
+      <p class="hero-sub reveal">
+        A growth-driven community to empower young African leaders, equipping them with the skills and resources to create impact — building Africa's brightest youth network.
+      </p>
+      <div class="hero-actions reveal">
+        <a href="#join" class="btn btn-dark">Join The Conclave</a>
+        <a href="#about" class="btn btn-outline">Learn More ↓</a>
+      </div>
+    </div>
+    <div class="hero-mosaic reveal">
+      <div class="mosaic-grid">
+        <div class="mosaic-img m1"><img src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=400&q=80" alt="Young leader smiling"/></div>
+        <div class="mosaic-block yellow"></div>
+        <div class="mosaic-img m3"><img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=400&q=80" alt="Group of young leaders"/></div>
+        <div class="mosaic-block green"></div>
+        <div class="mosaic-img m5"><img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80" alt="Leader presenting"/></div>
+        <div class="mosaic-block orange"></div>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- VISION & MISSION -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="vm-grid">
+        <div class="vm-card vision reveal-left">
+          <span class="vm-label">Our Vision</span>
+          <h2>To empower the next generation of young leaders to create impact across Africa and beyond</h2>
+          <p>A growth-driven community to empower young African leaders, equipping them with the skills and resources to create impact — building Africa's brightest youth network.</p>
+        </div>
+        <div class="vm-image reveal-right">
+          <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=700&q=80" alt="Student studying"/>
+          <div class="vm-badge">
+            <span class="badge-num">500+</span>
+            <span class="badge-label">Young Leaders</span>
+          </div>
+        </div>
+        <div class="vm-image reveal-left">
+          <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=700&q=80" alt="Leadership workshop"/>
+          <div class="vm-badge right">
+            <span class="badge-num">20+</span>
+            <span class="badge-label">Campuses</span>
+          </div>
+        </div>
+        <div class="vm-card mission reveal-right">
+          <span class="vm-label">Our Mission</span>
+          <h2>To train, develop and connect young leaders through leadership, community, and transformational learning experiences</h2>
+          <a href="#join" class="btn btn-orange">Join The Conclave</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CORE VALUES -->
+  <section class="values" id="values">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">What We Stand For</span>
+        <h2>Our Core Values</h2>
+      </div>
+      <div class="values-grid">
+        <div class="value-card v-dark reveal" data-delay="0">
+          <span class="value-num">01</span>
+          <h3>Leadership</h3>
+          <p>We cultivate bold, servant leaders who lead with purpose and inspire those around them.</p>
+        </div>
+        <div class="value-card v-orange reveal" data-delay="100">
+          <span class="value-num">02</span>
+          <h3>Integrity</h3>
+          <p>We uphold the highest standards of honesty, transparency, and ethical conduct in all we do.</p>
+        </div>
+        <div class="value-card v-yellow reveal" data-delay="200">
+          <span class="value-num">03</span>
+          <h3>Love</h3>
+          <p>We lead with compassion — for our communities, our continent, and each other.</p>
+        </div>
+        <div class="value-card v-teal reveal" data-delay="300">
+          <span class="value-num">04</span>
+          <h3>Character</h3>
+          <p>We develop individuals of strong moral fiber who stand firm in their convictions.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CAMPUS REP -->
+  <section class="campus" id="campus">
+    <div class="campus-bg-stripe"></div>
+    <div class="container">
+      <div class="campus-grid">
+        <div class="campus-text reveal-left">
+          <span class="section-label light">Africa's Next Leadership Movement</span>
+          <h2>Become a Campus Representative</h2>
+          <p>Lead the movement on your campus. As a Campus Rep, you'll host events, build community, and connect your peers with transformational opportunities across Africa.</p>
+          <ul class="campus-perks">
+            <li><span class="perk-dot"></span>Exclusive leadership training</li>
+            <li><span class="perk-dot"></span>Network with Africa's top young leaders</li>
+            <li><span class="perk-dot"></span>Access to mentorship programs</li>
+            <li><span class="perk-dot"></span>Certificate of recognition</li>
+          </ul>
+          <a href="#join" class="btn btn-dark">Register as Campus Rep</a>
+        </div>
+        <div class="campus-images reveal-right">
+          <div class="campus-img-top">
+            <img src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=600&q=80" alt="Campus leader"/>
+          </div>
+          <div class="campus-img-bottom">
+            <img src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&q=80" alt="Leadership event"/>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA STRIP -->
+  <section class="cta-strip" id="join">
+    <div class="cta-strip-inner">
+      <div class="cta-bar yellow">
+        <span>Rise.</span>
+      </div>
+      <div class="cta-bar teal">
+        <h2>Start leading today</h2>
+        <a href="https://docs.google.com/forms/d/12vZ6QGv6uQWRfhIBjUozIFxrKHx9Uf8vqq8lgvXRIPk/viewform" class="btn btn-white">Join The Conclave →</a>
+      </div>
+      <div class="cta-bar dark">
+        <span>Shape The Future.</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-bg">
+      <img src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=1400&q=60" alt="Event background"/>
+      <div class="footer-overlay"></div>
+    </div>
+    <div class="footer-content">
+      <div class="footer-logo">
+        <div class="logo-icon">
+          <span class="bar b1"></span>
+          <span class="bar b2"></span>
+          <span class="bar b3"></span>
+          <span class="bar b4"></span>
+        </div>
+        <span class="logo-text">The Young Leaders<br><strong>Conclave</strong></span>
+      </div>
+      <p class="footer-tagline">Africa's Next Leadership Movement</p>
+      <div class="footer-links">
+        <a href="#">Privacy Policy</a>
+        <span>|</span>
+        <a href="#">Terms of Use</a>
+      </div>
+      <p class="footer-copy">© 2026 The Young Leaders Conclave. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
